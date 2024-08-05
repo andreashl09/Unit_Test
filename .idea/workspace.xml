@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c34e6d-fab3-4b04-8cf5-72f9bac71227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/example/konto_klasse_testing/KontoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/example/konto_klasse_testing/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/example/konto_klasse_testing/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/example/stringCompressor/StringCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/example/stringCompressor/StringCompressor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +78,7 @@
       <recent name="de.example.unit_test_min_max" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KontoTest.einzahlen1">
-    <configuration name="KontoTest.einzahlen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit_Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.example.konto_klasse_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.example.konto_klasse_testing" />
-      <option name="MAIN_CLASS_NAME" value="de.example.konto_klasse_testing.KontoTest" />
-      <option name="METHOD_NAME" value="einzahlen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringCompressorTest.test4">
     <configuration name="KontoTest.einzahlen1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit_Tests" />
       <extension name="coverage">
@@ -106,38 +90,6 @@
       <option name="PACKAGE_NAME" value="de.example.konto_klasse_testing" />
       <option name="MAIN_CLASS_NAME" value="de.example.konto_klasse_testing.KontoTest" />
       <option name="METHOD_NAME" value="einzahlen1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KontoTest.getKontonummer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit_Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.example.konto_klasse_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.example.konto_klasse_testing" />
-      <option name="MAIN_CLASS_NAME" value="de.example.konto_klasse_testing.KontoTest" />
-      <option name="METHOD_NAME" value="getKontonummer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KontoTest.setSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit_Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.example.konto_klasse_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.example.konto_klasse_testing" />
-      <option name="MAIN_CLASS_NAME" value="de.example.konto_klasse_testing.KontoTest" />
-      <option name="METHOD_NAME" value="setSaldo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,13 +143,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCompressorTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit_Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.example.stringCompressor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.example.stringCompressor" />
+      <option name="MAIN_CLASS_NAME" value="de.example.stringCompressor.StringCompressorTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressorTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit_Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.example.stringCompressor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.example.stringCompressor" />
+      <option name="MAIN_CLASS_NAME" value="de.example.stringCompressor.StringCompressorTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressorTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit_Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.example.stringCompressor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.example.stringCompressor" />
+      <option name="MAIN_CLASS_NAME" value="de.example.stringCompressor.StringCompressorTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCompressorTest.test4" />
+        <item itemvalue="JUnit.StringCompressorTest.test3" />
+        <item itemvalue="JUnit.StringCompressorTest.test2" />
         <item itemvalue="JUnit.KontoTest.einzahlen1" />
         <item itemvalue="JUnit.KontoTest.ueberweisen" />
-        <item itemvalue="JUnit.KontoTest.einzahlen" />
-        <item itemvalue="JUnit.KontoTest.setSaldo" />
-        <item itemvalue="JUnit.KontoTest.getKontonummer" />
       </list>
     </recent_temporary>
   </component>

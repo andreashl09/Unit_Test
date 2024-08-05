@@ -28,5 +28,12 @@ public class StringCompressorTest {
         assertEquals("a2bc5a3", result);
     }
 
+    @Test
+    @DisplayName("output the number of individual characters in a string")
+    public void test4(){
+        String result = StringCompressor.compress("///||||");
+        assertEquals("/3|4", result);
+    }
+
 
 }

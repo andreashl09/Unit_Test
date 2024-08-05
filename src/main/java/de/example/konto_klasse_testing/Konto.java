@@ -2,7 +2,7 @@ package de.example.konto_klasse_testing;
 
 public class Konto {
 
-    private String kontonummer;
+    private final String kontonummer;
     private double saldo;
 
     public Konto(String kontonummer, double anfangssaldo) {
@@ -46,7 +46,7 @@ public class Konto {
 
     private boolean pruefeLiquiditaet(double betrag){
         if ((this.saldo - betrag) < 0)
-            throw new IllegalArgumentException("Es kann nicht abgehoben werden, als verfügbar ist");
+            throw new IllegalArgumentException("Es kann nicht mehr abgehoben werden, als verfügbar ist");
         return true;
     }
 

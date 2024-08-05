@@ -8,16 +8,16 @@ public class StringCompressor {
         if (input.isEmpty()){
             return "String ist leer";
         }
+
         StringBuilder output = new StringBuilder();
 
-        while (!input.isEmpty()) {
-            char c = input.charAt(0);
-            int i = 0;
-            do {
-                input = input.substring(1);
+        int index = 0;
+        while (index < input.length()) {
+            char c = input.charAt(index);
+            int i = 1;
+            while (++index < input.length() && c == input.charAt(index)){
                 ++i;
-                if (input.isEmpty()) break;
-            } while (c == input.charAt(0));
+            }
             output.append(c);
             if (i > 1) output.append(i);
 
